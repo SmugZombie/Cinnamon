@@ -30,7 +30,7 @@ MyApplet.prototype = {
       this.settings.bindProperty(Settings.BindingDirection.IN, "icon", "icon", this._onSettingsIcon, null)
 
       if (this.directory == "" || typeof this.directory == "undefined") {
-         this.directory = GLib.get_home_dir()+"/.scripts-applet";
+         this.directory = GLib.get_home_dir()+"/.scripts-menu";
       }
       this.autoupdate_last = this.autoupdate;
       this.directory_last = this.directory;
