@@ -1,0 +1,2 @@
+# cinnamon
+Applets for Cinnamon
